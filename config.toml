@@ -1,0 +1,4 @@
+baseURL = "http://titaniumgones.gihub.io/hugodemo/"
+languageCode = "en-us"
+title = "Demo for Hugo Depoloyments"
+theme = "ananke"
