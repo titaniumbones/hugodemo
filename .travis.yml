@@ -10,13 +10,13 @@ git:
 
 branches:
   only:
-    - sourcefiles
+    - master
 
 env:
   global:
     - SOURCE_DIR="public"
-    - BUILD_BRANCH="sourcefiles"
-    - DEPLOY_BRANCH="master"
+    - BUILD_BRANCH="master"
+    - DEPLOY_BRANCH="gh-pages"
 
 install:
   - go get -u -v github.com/spf13/hugo
